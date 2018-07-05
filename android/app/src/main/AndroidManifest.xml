@@ -16,7 +16,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <service android:name=".aidl.server.TestServiceNative"
+        <service android:name=".aidl.server.BookServiceServer"
             android:process=":book"
             />
     </application>
